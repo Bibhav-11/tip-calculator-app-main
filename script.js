@@ -28,8 +28,10 @@ function updateTip() {
 
 //Update total value
 function updateTotal() {
-    total = tip+bill/people;  
-    totalAmount.textContent = `$${total.toFixed(2)}`;
+    if(people !== 0) {
+        total = tip+bill/people;  
+        totalAmount.textContent = `$${total.toFixed(2)}`;
+    }
 }
 
 //Reset everything
