@@ -45,7 +45,7 @@ function reset() {
 }
 
 //Reset all input values
-function resetInput(input, value = '') {
+function resetInput(input, value = '') { 
     input.value = value;
     input.blur();
 }
