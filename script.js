@@ -37,7 +37,7 @@ function updateTotal() {
 //Reset everything
 function reset() {
     resetInput(billInput);
-    resetInput(noOfPeople);
+    resetInput(noOfPeople); 
     resetInput(customValue);
 
     resetAmount();
